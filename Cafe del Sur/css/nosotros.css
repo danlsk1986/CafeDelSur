@@ -1,0 +1,939 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  
+  }
+  body{
+    height: 750px;
+    content:"";
+    display: block;
+    clear: both;
+    font-family: 'Questrial', serif;
+    background-color: #fff;
+  
+  
+  
+  }
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*----HEADER-----*/
+  header{
+    position: relative;
+    width: 960px;
+    height: 146px;
+    /*background: #000000;*/
+    margin:auto;
+    display: flex;
+    background-image: url(../img/fondo.jpg);
+  }
+  
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*-----LOGO----------*/
+  .logo{
+    position: absolute;
+    width: 300px;
+    height: 130px;
+    margin:auto;
+    top: 10px;
+    left: 33px;
+    background-image: url(../img/logoCafe.jpg);
+    background-size: 100% 100%;
+  }
+  /*-----FIN LOGO----------*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*------NAVEGACION-------*/
+  
+  nav{
+    position: relative;
+    margin:auto;
+    width: 600px;
+    height: 40px;
+    top: 43px;
+    left: 160px;
+    /*border: 1px solid black;*/
+  }
+  nav ul{
+    position: absolute;
+    width: 600px;
+    height: 40px;
+    background-color:#085b03;
+  
+  }
+  nav ul li{
+    float: left;
+    width: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    border-right: 1px solid black;
+  }
+  
+  nav ul li:hover{
+    background-color: #100d00;
+  
+  }
+  
+  nav ul li a{
+    color: #ffffff;
+    font-family: 'Acme', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+  }
+  
+  /*----FIN NAVEGACION-----*/
+  /*----FIN HEADER-----*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*----SLIDE-----*/
+  
+  .slide{
+    position: relative;
+    margin:auto;
+    width: 960px;
+    height: 350px;
+    /*background-image: url(../img/slideCafe.jpg);*/
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
+  .slide ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+  
+    animation: cambio 20s infinite alternate;
+  }
+  
+  .slide li{
+    width: 80%;
+    list-style: none;
+  }
+  .slide img{
+    width:100%;
+    height: 350px;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+  
+  }
+  
+  @keyframes cambio{
+    0% {margin-left: 0;}
+    20%{margin-left: 0;}
+  
+    25%{margin-left: -100%;}
+    45%{margin-left:-100%;}
+  
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+  
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+  
+  }
+  
+  /*----FIN SLIDE-----*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*----SECTION-----*/
+  section{
+    position: relative;
+    margin:auto;
+    width: 960px;
+    height: 520px;
+    background-image: url(../img/fondo.jpg);
+  }  
+  
+  section div.nosotros{
+    background-color: beige;
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 50px 50px;
+
+  }
+  section h3 {
+    color: #1a1d20;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #ffffffa3;
+  }
+  .nosotros ul li p{
+    margin: 20px 0;
+    text-shadow: 5px 10px 7px rgba(0,0,0,0.5)
+  }
+
+
+  
+  /*----FIN SECTION-----*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*----BOTTOM-----*/
+  .bottom{
+    position: relative;
+    margin:auto;
+    width: 960px;
+    height: 120px;
+    background: #000000;
+  
+  }
+  .contacto{
+    position: absolute;
+    width: 320px;
+    height: 100px;
+    top: 11px;
+    left: 34px;
+  
+  }
+  .contacto h4{
+    color: white;
+    margin-bottom: 12px;
+  }
+  .contacto ul li {
+    font-size: 14px;
+    color: #fff;
+    margin: 9px 2px;
+  }
+  .promo{
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    top:11px;
+    left: 315px;
+    border: 3px solid white;
+    border-style: dashed;
+  }
+  .promo h4{
+    color: white;
+    margin: 5px 5px;
+  }
+  .promo ul li {
+    font-size: 16px;
+    color: #fff;
+    margin: 9px 2px;
+  }
+  
+  .redes {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 11px;
+    right: 10px;
+  }
+  .redes h4{
+    color: #fff;
+    text-align: left;
+    margin-bottom: 12px;
+  }
+  .redes ul li{
+    float:left;
+      width:40px;
+      height:40px;
+      border-radius:100%;
+      margin:5px;
+  }
+  .redes ul li:first-child{
+    background-size: cover;
+  
+  }
+  .redes ul li:nth-child(2){
+    background-size: cover;
+  
+  }
+  .redes ul li:nth-child(3){
+    background-size: cover;
+  
+  }
+  .redes ul li:last-child{
+      background-size: cover;
+  
+  }
+  /*----FIN BOTTOM-----*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*----FOOTER-----*/
+  footer{
+    position: relative;
+    margin:auto;
+    width: 960px;
+    height: 35px;
+    background-color: #085b03;
+  }
+  footer p{
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    line-height: 35px;
+  }
+  /*----FIN FOOTER-----*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*--Large Desktop--*/
+  
+  @media (min-width:1200px){
+      
+      
+  }
+      
+  /*--Medium Desktop--*/
+      
+  @media (max-width:1199px) and (min-width:992px){
+      header{
+      position: relative;
+      width: 90%;
+      height: 146px;
+      margin:auto;  
+      display: flex;
+      background-image: url(../img/fondo.jpg);
+    }
+      .logo{
+      position: absolute;
+      width: 245px;
+      height: 130px;
+      margin:auto;
+      top: 10px;
+      left: 33px;
+      background-image: url(../img/logoCafe.jpg);
+      background-size: 100% 100%;
+    }
+    nav{
+      position: relative;
+      margin:auto;
+      width: 600px;
+      height: 40px;
+      top: 43px;
+      left: 35px;
+      /*border: 1px solid black;*/
+    }
+    nav ul{
+      position: absolute;
+      width: 600px;
+      left: 100px;
+      height: 40px;
+      background-color:#085b03;
+    
+    }
+    nav ul li{
+      float: left;
+      width: 120px;
+      text-align: center;
+      text-transform: uppercase;
+      border-right: 1px solid black;
+    }
+  
+    nav ul li a:last-child{
+      border-right: none!important;
+    }
+    
+    nav ul li:hover{
+      background-color: #100d00;
+    
+    }
+    
+    nav ul li a{
+      color: #ffffff;
+      font-family: 'Acme', sans-serif;
+      font-size: 16px;
+      text-align: center;
+      line-height: 40px;
+    }
+    .slide{
+      position: relative;
+      margin:auto;
+      width: 90%;
+      height: 350px;
+      /* background-image: url(../img/slideCafe.jpg); */
+      background-size: 100% 100%;
+      background-attachment: scroll;
+    }
+    section{
+      position: relative;
+      margin:auto;
+      width: 90%;
+      height: 720px;
+      background-image: url(../img/fondo.jpg);
+    }
+    
+    
+    .cajas {
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      top: 0px;
+    }
+    .caja {
+      background-color: white;
+      margin: 17px 33px;
+      height: 315px;
+      width: 390px;
+    }
+    .caja img{
+      margin:10px 15px;
+      width:360px;
+      height:170px;
+    }
+    .caja h3,h5{
+      margin: 4px 10px;
+      width:377px;
+      text-align: left;
+      line-height: normal;
+    }
+    .caja p{
+      margin: 10px 10px;
+      width:377px;
+      text-align: left;
+      line-height: normal;
+    }
+    
+    /*----FIN SECTION-----*/
+    /*-------------------------------------*/
+    /*-------------------------------------*/
+    /*----BOTTOM-----*/
+    .bottom{
+      position: relative;
+      margin:auto;
+      width: 90%;
+      height: 120px;
+      background: #000000;
+    
+    }
+    .contacto{
+      position: absolute;
+      width: 320px;
+      height: 100px;
+      top: 11px;
+      left: 34px;
+    
+    }
+    .contacto h4{
+      color: white;
+      margin-bottom: 12px;
+    }
+    .contacto ul li {
+      font-size: 14px;
+      color: #fff;
+      margin: 9px 2px;
+    }
+    .promo{
+      position: absolute;
+      text-align: center;
+      width: 300px;
+      height: 100px;
+      top:11px;
+      left: 315px;
+      border: 3px solid white;
+      border-style: dashed;
+    }
+    .promo h4{
+      color: white;
+      margin: 5px 5px;
+    }
+    .promo ul li {
+      font-size: 16px;
+      color: #fff;
+      margin: 9px 2px;
+    }
+    
+    .redes {
+      position: absolute;
+      width: 300px;
+      height: 100px;
+      top: 11px;
+      right: -30px;
+    }
+    .redes h4{
+      color: #fff;
+      text-align: left;
+      margin-bottom: 12px;
+    }
+    .redes ul li{
+      float:left;
+      width:40px;
+      height:40px;
+      border-radius:100%;
+      margin:5px;
+    }
+    .redes ul li:first-child{
+      background-size: cover;
+    
+    }
+    .redes ul li:nth-child(2){
+      background-size: cover;
+    
+    }
+    .redes ul li:nth-child(3){
+      background-size: cover;
+    
+    }
+    .redes ul li:last-child{
+        background-size: cover;
+    
+    }
+    /*----FIN BOTTOM-----*/
+    /*-------------------------------------*/
+    /*-------------------------------------*/
+    /*----FOOTER-----*/
+    footer{
+      position: relative;
+      margin:auto;
+      width: 90%;
+      height: 35px;
+      background-color: #085b03;
+    }
+    footer p{
+      color: #fff;
+      font-size: 10px;
+      text-align: center;
+      line-height: 35px;
+    }
+  }
+      
+  /*--Tablets--*/
+      
+  @media (max-width:991px) and (min-width:768px){
+    header{
+      position: relative;
+      width: 85%;
+      height: 146px;
+      margin:auto;  
+      display: flex;
+      background-image: url(../img/fondo.jpg);
+    }
+      .logo{
+      position: absolute;
+      width: 200px;
+      height: 130px;
+      margin:auto;
+      top: 10px;
+      left: 15px;
+      background-image: url(../img/logoCafe.jpg);
+      background-size: 100% 100%;
+    }
+    nav{
+      /*position: relative;*/
+      margin:auto;
+      top: 35px;
+      left: 200px;
+      /*border: 1px solid black;*/
+    }
+    nav ul{
+      position: absolute;
+      width:380px;
+      height: 40px;
+      background-color:#085b03;
+    
+    }
+    nav ul li{
+      float: left;
+      width: 75px;
+      text-align: center;
+      text-transform: uppercase;
+      /*border-right: 1px solid black;*/
+    }
+    
+    nav ul li:hover{
+       background-color: #100d00;
+    
+    }
+    nav ul li:last-child{
+      border-right: none!important;
+    }
+    
+    nav ul li a{
+      color: #ffffff;
+      font-family: 'Acme', sans-serif;
+      font-size: 13px;
+      text-align: center;
+      line-height: 40px;
+    }
+   
+    .slide{
+      position: relative;
+      margin:auto;
+      width: 85%;
+      height: 350px;
+      /* background-image: url(../img/slideCafe.jpg); */
+      background-size: 100% 100%;
+      background-attachment: scroll;
+    }
+    section{
+      position: relative;
+      margin:auto;
+      width: 85%;
+      height: 720px;
+      background-image: url(../img/fondo.jpg);
+    }
+    
+    
+    .cajas {
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      top: 0px;
+    }
+    .caja {
+      background-color: white;
+      margin: 17px 30px;
+      height: 315px;
+      width: 260px;
+    }
+    .caja img{
+      margin:10px 15px;
+      width:230px;
+      height:170px;
+    }
+    .caja h3,h5{
+      margin: 4px 10px;
+      width:90%;
+      text-align: left;
+      line-height: normal;
+    }
+    .caja p{
+      margin: 10px 10px;
+      width:90%;
+      font-size: 12px;
+      text-align: left;
+      line-height: normal;
+    }
+    
+    /*----FIN SECTION-----*/
+    /*-------------------------------------*/
+    /*-------------------------------------*/
+    /*----BOTTOM-----*/
+    .bottom{
+      position: relative;
+      margin:auto;
+      width: 85%;
+      height: 120px;
+      background: #000000;
+    
+    }
+    .contacto{
+      position: absolute;
+      width: 25%;
+      height: 100px;
+      top: 10px;
+      left: 34px;
+    
+    }
+    .contacto h4{
+      color: white;
+      margin-bottom: 12px;
+    }
+    .contacto ul li {
+      font-size: 14px;
+      color: #fff;
+      margin: 9px 2px;
+    }
+    .promo{
+      position: absolute;
+      text-align: center;
+      width: 30%;
+      height: 90px;
+      top:11px;
+      left: 210px;
+      border: 3px solid white;
+      border-style: dashed;
+    }
+    .promo h4{
+      color: white;
+      margin: 5px 5px;
+    }
+    .promo ul li {
+      font-size: 16px;
+      color: #fff;
+      margin: 9px 2px;
+    }
+    
+    .redes {
+      position: absolute;
+      width: 30%;
+      height: 100px;
+      top: 11px;
+      right: 25px;
+    }
+    .redes h4{
+      color: #fff;
+      text-align: left;
+      margin-bottom: 12px;
+    }
+    .redes ul li{
+      float:left;
+      width:5%;
+      border-radius:100%;
+      margin:auto 15px;
+    }
+    .redes ul li:first-child{
+      background-size: cover;
+    
+    }
+    .redes ul li:nth-child(2){
+      background-size: cover;
+    
+    }
+    .redes ul li:nth-child(3){
+      background-size: cover;
+    
+    }
+    .redes ul li:last-child{
+        background-size: cover;
+    
+    }
+    /*----FIN BOTTOM-----*/
+    /*-------------------------------------*/
+    /*-------------------------------------*/
+    /*----FOOTER-----*/
+    footer{
+      position: relative;
+      margin:auto;
+      width: 85%;
+      height: 35px;
+      background-color: #085b03;
+    }
+    footer p{
+      color: #fff;
+      font-size: 10px;
+      text-align: center;
+      line-height: 35px;
+    }
+           
+  }
+    
+  /*--Phones--*/
+      
+  @media (max-width:767px) and (min-width:320px){
+    header{
+      width: 100%;
+      height: 25%;
+      display: flex;
+      background-image: url(../img/fondo.jpg);
+    }
+    .logo{
+      width: 75%;
+      height: 130px;
+      margin: auto 10%;
+      top: 0px;
+      left: auto;
+      background-image: url(../img/logoCafe.jpg);
+      background-size: 100% 100%;
+    }
+    
+    #mobile_nav{
+      position: absolute;
+      width: 100%;
+      padding: 5px;
+      height: 44px;
+      margin-top: 135px;
+      background-color: #123110;
+    }
+  
+  
+    .boton_span{
+      border-radius: 100%;
+      width: 46px;
+      margin: -6px 2px;
+      height: 46px;
+      border: 2px solid white;
+      position: absolute;
+     
+    }
+  
+    #mobile_nav span{
+      position: relative;
+      display: block;
+      width: 42px;
+      height: 2px;
+      margin: 9px 0px;
+      background: #cdcdcd;
+      border-radius: 3px;
+      z-index: 1;
+      
+    }
+  
+    nav {
+      display: none;    
+      top: 0px;
+      left: 0px;
+          
+    }
+    
+    nav ul{
+      width: 100%;
+      height: 35px;    
+    }
+
+    nav ul li{
+      float: left;
+      width: 100%;
+      margin-bottom: 1px;
+      border: 3px solid black;
+      text-transform: uppercase;
+      background-color: #085b03;
+      
+    }
+    
+    
+    nav ul li:hover{
+       background-color: #100d00;
+    
+    }
+    nav ul li:last-child{
+      border-right: none!important;
+    }
+    
+    nav ul li a{
+      color: #ffffff;
+      font-family: 'Acme', sans-serif;
+      font-size: 17px;
+      text-align: center;
+      line-height: 35px;
+    }
+   
+    
+    .slide{
+      position: relative;
+      margin:auto;
+      width: 100%;
+      height: 320px;
+      /* background-image: url(../img/slideCafe.jpg); */
+      background-size: 100% 100%;
+      background-attachment: scroll;
+    }
+    section{
+      position: relative;
+      margin: auto;
+      width: 100%;
+      height: fit-content;
+      background-image: url(../img/fondo.jpg);
+    }  
+    
+    .cajas {
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      top: 0px;
+    }
+    .caja {
+      background-color: white;
+      margin: 17px auto;
+      height: 315px;
+      width: 310px;
+    }
+    .caja img{
+      margin: 15px 15px;
+      width: 275px;
+      height: 170px;
+    }
+    .caja h3,h5{
+      margin: 4px 10px;
+      width:90%;
+      text-align: left;
+      line-height: normal;
+    }
+    .caja p{
+      margin: 10px 10px;
+      width:90%;
+      font-size: 12px;
+      text-align: left;
+      line-height: normal;
+    }
+    
+    /*----FIN SECTION-----*/
+    /*-------------------------------------*/
+    /*-------------------------------------*/
+    /*----BOTTOM-----*/
+    .bottom{
+      background: #000000;
+      margin: auto;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      top: 0px
+    }
+    .contacto{
+      width: 40%;
+      height: 100px;
+      top: 10px;
+      left: 10px;
+    
+    }
+    .contacto h4{
+      color: white;
+      margin-bottom: 12px;
+    }
+    .contacto ul li {
+      font-size: 12px;
+      color: #fff;
+      margin: 9px auto;
+      
+    }
+  
+    .promo{
+      display: none;
+    }
+      
+    .redes {
+      width: 50%;
+      height: 100px;
+      top: 10px;
+      right: 12px;
+    }
+    .redes h4{
+      color: #fff;
+      text-align: left;
+      margin-left: 20px;
+      margin-bottom: 12px;
+    }
+    .redes ul li{
+      float:left;
+      width:20px;
+      border-radius:100%;
+      margin:auto 10px;
+    }
+    .redes ul li:first-child{
+      background-size: cover;
+    
+    }
+    .redes ul li:nth-child(2){
+      background-size: cover;
+    
+    }
+    .redes ul li:nth-child(3){
+      background-size: cover;
+    
+    }
+    .redes ul li:last-child{
+        background-size: cover;
+   }
+  
+  
+  
+    /*----FIN BOTTOM-----*/
+    /*-------------------------------------*/
+    /*-------------------------------------*/
+    /*----FOOTER-----*/
+    footer{
+      position: relative;
+      margin:auto;
+      width: 100%;
+      height: 35px;
+      background-color: #085b03;
+    }
+    footer p{
+      color: #fff;
+      font-size: 10px;
+      text-align: center;
+      line-height: 35px;
+    }
+           
+  }
+      
+  
+  
+  

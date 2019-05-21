@@ -1,0 +1,181 @@
+body{
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+#fecha p{
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+#c {
+    position: absolute;
+    display: inline-flex;
+    right: 20px;
+    border: 1px solid black;
+    
+}
+
+
+.ball {
+    background-color: black;
+    position: relative;
+    border-radius: 50%;
+}
+
+
+.contenedor{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+#cajaformulario{
+    padding: 40px;
+    width: 17%;
+    border: 1px solid #999999;
+    background-color: whitesmoke;
+   
+}
+
+#cajadatos{
+    float: left;
+    width: 400px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid #999999;
+    background-color: whitesmoke;
+}
+
+#clave, #texto {
+    width: 200px;
+}
+
+#cajadatos > div{
+    padding: 5px;
+    border-bottom: 1px solid #999999;
+}
+
+p{
+    margin: 15px 0px 0px 0px;
+}
+
+#exit{
+    display: inline-flex;
+    cursor: pointer;
+    margin: 8px 30px
+}
+#exit h3{
+    position: absolute;
+    margin-left: 31px
+}
+
+#exit img{
+    width: 70px;
+    margin: 55px 23px;
+}
+
+/*--Medium Desktop--*/
+	
+@media (max-width:1199px) and (min-width:992px){
+
+  
+  /*----FIN SECTION-----*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*----BOTTOM-----*/
+  
+  /*----FIN BOTTOM-----*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*----FOOTER-----*/
+  
+}
+	
+/*--Tablets--*/
+	
+@media (max-width:991px) and (min-width:768px){
+
+  
+  /*----FIN SECTION-----*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*----BOTTOM-----*/
+
+  /*----FIN BOTTOM-----*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*----FOOTER-----*/
+  
+	 	
+}
+  
+/*--Phones--*/
+	
+@media (max-width:767px) and (min-width:320px){
+    .contenedor{
+        background-color: lightgray;
+        display: block;
+        justify-content: center;
+        z-index: 1;
+    }
+
+
+
+    #c {
+        border: 1px solid black;
+        float: right;
+        margin-top: 24px;
+        margin-right: 25px;
+    }
+
+    #exit {
+       display: inline-flex;
+       cursor: pointer;
+       margin: 8px 30px
+    }
+
+
+    #cajaformulario {
+        margin-top: 5%;
+        width: 80%;
+        margin-bottom: 5%;
+        background-color: whitesmoke;
+        margin-left: 5%;
+        padding: 16px;
+        border: 1px solid #999999;
+    } 
+
+    #cajadatos {
+        display: inline-block;
+        background-color: whitesmoke;
+        width: 80%;
+        margin-left: 15px;
+        padding: 20px;
+        border: 1px solid #999999;
+    }
+    
+
+
+  /*----FIN SECTION-----*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*----BOTTOM-----*/
+
+
+  /*----FIN BOTTOM-----*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*----FOOTER-----*/
+  
+	 	
+}
+
+
+

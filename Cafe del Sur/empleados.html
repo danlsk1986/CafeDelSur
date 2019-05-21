@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/task.css">
+          <title>Tareas Staff Cafe de Sur</title>
+</head>
+<body>
+   
+    <h1>Portal Empleados Cafe del Sur</h1>
+    <h3> - Tareas diarias - </h3>
+
+<div class="contenedor">
+    <section id="cajaformulario">
+        <form name="formulario">
+            <p>ID:<br><input type="text" name="clave" id="clave"></p>
+            <p>Tarea:<br><textarea name="text" id="texto"></textarea></p>
+            <p>Prioridad:</p>
+                <select id="urgencia">
+                    <option value="Muy Urgente">Muy Urgente</option>
+                    <option value="Urgente">Urgente</option>
+                    <option value="Poco urgente">Poco urgente</option>
+                </select>
+            <p>Fecha:</p>
+                <span id="fecha">
+                    <p id="dia">DD</p>
+                    <p>/</p>
+                    <p id="mes">MM</p>
+                    <p>/</p>
+                    <p id="ano">YYYY</p>
+                </span>
+                <p><input type="button" name="grabar" id="grabar" value="Grabar"></p>
+        </form>
+    </section>
+    <section id="cajadatos">
+                No hay información disponible
+    </section>
+    
+</div>
+<div id="exit">
+    <h3>Exit</h3>
+    <a href="http://danlskwebdevelopment.com.ar/cajasFinal.html"><img src="img/exit.png" alt="exit"></a>
+
+<canvas id="c"></canvas></div>
+<script type="text/javascript" src="js/task.js"></script>
+<script type="text/javascript" src="js/canvas.js"></script> 
+</body>
+</html>
+
+
